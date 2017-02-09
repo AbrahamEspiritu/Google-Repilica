@@ -178,3 +178,41 @@ a.button:hover {
     letter-spacing: 0.1px;
     font-size: 14px;
 }
+
+@media (max-width: 521px){
+	.right-site-links {
+		float: none;
+/* padding-right: 10px; */
+}
+}
+
+@media (min-width: 480px){
+	.left-site-links {
+	    float: left;
+	    padding-left: 0px;
+	}
+}
+
+@media (max-width: 478px){
+	.left-site-links {
+    float: left;
+    padding-left: 0px;
+}
+}
+
+@media (max-width: 468px){
+	.right-site-links {
+    float: none;
+    padding-right: 0px;
+}
+}
+
+@media (max-width: 450px){
+	.bottom-site-links {
+    bottom: 0 !important;
+    position: absolute;
+    width: 200%;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+}
